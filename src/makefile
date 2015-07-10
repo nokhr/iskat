@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -std=c++0x -Wall -Werror
 LDFLAGS=
-EXEC=../bin/iskat
+EXEC=iskat
 SOURCES=main.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
