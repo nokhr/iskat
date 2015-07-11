@@ -3,7 +3,7 @@
 System requirements:
 
  * Centos 6.6+
- * Installed g++. If you have not installed, you can install it with 
+ * To compile from sources - installed g++. If you have not installed, you can install it with 
  	`yum install gcc-c++`
 
 
