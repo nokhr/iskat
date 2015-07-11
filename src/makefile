@@ -7,11 +7,11 @@ SOURCES=main.cpp
 HEADERS=
 OBJECTS=$(SOURCES:.cpp=.o)
 
-DBGDIR = ../build/debug
+DBGDIR = build/debug
 DBGOBJS = $(addprefix $(DBGDIR)/, $(OBJECTS))
 DBGCFLAGS = -g3 -O0 -DDEBUG
 
-RELDIR = ../build/release
+RELDIR = build/release
 RELOBJS = $(addprefix $(RELDIR)/, $(OBJECTS))
 RELCFLAGS = -O3 -DNDEBUG
 
